@@ -1,0 +1,44 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "home": {
+    "Projects": "Proyek Terakhir",
+    "moreWork": "Lihat Lainnya"
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Nama saya Immanuel Ardiyanto, saat ini saya sedang menempuh pendidikan di President University. Saya seorang praktisi IT yang memiliki minat di bidang Artificial Intelligent, Website Development, Software Engineer, dan Web3. Saya adalah orang yang cepat belajar, analis, dan pemikir kritis."
+  },
+  "project": {
+    "title": "Seluruh Proyek",
+    "project1": "Portofolio website pertama saya yang dibuat dengan desain interaktif.",
+    "project2": "Membuat Sistem Absensi Kehadiran dengan memindai wajah pengguna menggunakan kamera.",
+    "project3": "Aplikasi Pemrosesan Gambar yang dibuat untuk menerapkan enhancement, filtering, dan lain-lain pada sebuah gambar.",
+    "project4": "Sistem Penyewaan Buku yang dibuat untuk mengelola data dan batas waktu penyewaan.",
+    "project5": "Aplikasi Kalkulator BMI yang dibuat untuk menghitung BMI pengguna beserta sistem login. "
+  },
+  "contact": {
+    "name": "Siapa Nama Anda",
+    "nameform": "Nama Anda",
+    "email": "Apa Alamat Email Anda",
+    "emailform": "Email Anda",
+    "phone": "Berapa Nomor Telepon Anda",
+    "message": "Apa Permintaan Anda",
+    "messageform": "Pesan Anda...",
+    "contact": "Lokasi",
+    "find": "Temukan Saya",
+    "send": "Kirim",
+    "title": "Mari Berkolaborasi!",
+    "success": "Pesan terkirim! Terima kasih.",
+    "failed": "Gagal mengirim, silakan coba lagi."
+  },
+  "contactform": {
+    "button": "Buat Kontak",
+    "line1": "Segera",
+    "line2": "Hubungi!"
+  }
+}

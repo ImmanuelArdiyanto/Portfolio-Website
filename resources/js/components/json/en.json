@@ -1,0 +1,44 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "Projects": "Recent Projects",
+    "moreWork": "More Works"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "My name is Immanuel Ardiyanto, at this time I'm studying at President University. I am an IT practitioner whose have interests in Artificial Intelligent, Website Development, Software Engineer, and Web3. I am a fast-learner, analyst, and critical-thinker person."
+  },
+  "project": {
+    "title": "All Works",
+    "project1": "My first website portfolio created with interactive design.",
+    "project2": "Creating Attendance Absence System by scanning the user's face using camera.",
+    "project3": "An Image Processing Application created to apply enhancement, filtering, etc on an image.",
+    "project4": "A Renting Book System created to manage data and managing the renting time limit.",
+    "project5": "A BMI Calculator Application created to calculate user's BMI along with log in system "
+  },
+  "contact": {
+    "name": "What is Your name",
+    "nameform": "Your Name",
+    "email": "What is your email",
+    "emailform": "Your Email",
+    "phone": "What is Your Phone Number",
+    "message": "What is Your Request",
+    "messageform": "Your Message...",
+    "contact": "Location",
+    "find": "Find me",
+    "send": "Send",
+    "title": "Let's Collaborate!",
+    "success": "Message sent! Thank you.",
+    "failed": "Failed to sent! Please try again."
+  },
+  "contactform": {
+    "button": "Make Contact",
+    "line1": "Contact",
+    "line2": "Now!"
+  }
+}

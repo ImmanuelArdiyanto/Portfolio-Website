@@ -1,0 +1,23 @@
+/* resources/css/app.css */
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Dan di sinilah Anda akan menambahkan gaya kustom lainnya, seperti untuk body */
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    text-emphasis-color: #ffffff;
+}
+.filter-white{
+    filter:invert(100%) sepia(100%) saturate(0%) hue-rotate(330deg) brightness(106%) contrast(101%);
+}

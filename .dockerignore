@@ -1,0 +1,23 @@
+.git
+.gitignore
+.gitattributes
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Node
+node_modules
+
+# Vendor
+vendor
+    
+# Laravel
+storage/framework/
+storage/logs/
+.env
+.env.example
+
+# Build assets (kita build di dalam container)
+public/build
