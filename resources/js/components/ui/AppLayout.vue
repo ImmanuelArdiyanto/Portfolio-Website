@@ -1,5 +1,5 @@
 <script setup>
-import Navbar from '@/components/ui/Navbar.vue'; // Sesuaikan path jika perlu
+import Navbar from '@/components/ui/Navbar.vue';
 import Button from '@/components/ui/Button.vue';
 </script>
 

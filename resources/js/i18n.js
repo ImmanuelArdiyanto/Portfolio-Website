@@ -1,6 +1,5 @@
 import { createI18n } from 'vue-i18n';
 
-// Berdasarkan struktur folder Anda, path ini seharusnya benar.
 import en from './components/json/en.json';
 import id from './components/json/id.json';
 

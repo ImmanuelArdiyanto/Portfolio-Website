@@ -43,11 +43,10 @@ const { t, locale } = useI18n();
 const toggleLanguage = () => {
   const newLocale = locale.value === 'en' ? 'id' : 'en';
   locale.value = newLocale;
-  // Simpan pilihan bahasa ke localStorage agar tetap tersimpan
   localStorage.setItem('language', newLocale);
 };
 
-// Logika efek magnetik yang benar dan sederhana
+
 const handleMouseMove = (event) => {
   const target = event.currentTarget;
   const rect = target.getBoundingClientRect();
@@ -64,15 +63,13 @@ const handleMouseLeave = (event) => {
 </script>
 
 <style scoped>
-/* 5. Semua efek khusus digabung ke dalam satu kelas `.nav-link` yang rapi */
 .nav-link {
   position: relative;
-  font-weight: 500; /* font-medium */
+  font-weight: 500; 
   text-decoration: none;
   padding-bottom: 5px;
   cursor: pointer;
 
-  /* Efek Fill Text */
   color: transparent;
   background: linear-gradient(to top, #a788f5 50%, white 50%);
   background-size: 100% 200%;
@@ -80,7 +77,6 @@ const handleMouseLeave = (event) => {
   -webkit-background-clip: text;
   background-clip: text;
 
-  /* Gabungan transisi untuk semua efek */
   transition: background-position 0.6s ease, transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -88,7 +84,6 @@ const handleMouseLeave = (event) => {
   background-position: 0 100%;
 }
 
-/* Efek titik yang muncul di bawah saat hover */
 .nav-link::after {
   content: '';
   position: absolute;
@@ -106,7 +101,6 @@ const handleMouseLeave = (event) => {
   transform: translateX(-50%) scale(1);
 }
 
-/* Efek magnetik untuk nama brand (lebih sederhana) */
 .nav-brand-magnetic {
   display: inline-block;
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);

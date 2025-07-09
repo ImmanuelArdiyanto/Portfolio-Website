@@ -71,7 +71,6 @@ defineOptions({ layout: AppLayout });
 const { t } = useI18n();
 
 // Data untuk bagian Skills.
-// Anda bisa dengan mudah mengedit, menambah, atau memindahkan skill di sini.
 const skillCategories = ref([
   {
     name: 'Frontend Development',
@@ -88,10 +87,10 @@ const skillCategories = ref([
   {
     name: 'Software & Mobile Development',
     skills: ['Android Studio']
+  },
+  {
+    name: 'Web 3',
+    skills: ['Solidity']
   }
 ]);
 </script>
-
-<style scoped>
-/* Semua style ditangani oleh Tailwind CSS */
-</style>

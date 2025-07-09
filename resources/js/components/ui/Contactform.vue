@@ -42,7 +42,6 @@ import { Link } from '@inertiajs/vue3';
 
 
 const { t, locale } = useI18n();
-// Script ini berisi logika untuk efek magnetik
 const handleMouseMove = (event) => {
   const target = event.currentTarget;
   const rect = target.getBoundingClientRect();
@@ -59,7 +58,6 @@ const handleMouseLeave = (event) => {
 </script>
 
 <style scoped>
-/* Kelas ini PENTING untuk membuat efek magnetik terasa mulus */
 .magnetic-item {
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }

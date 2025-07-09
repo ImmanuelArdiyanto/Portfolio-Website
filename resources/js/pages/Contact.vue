@@ -88,8 +88,6 @@ defineOptions({ layout: AppLayout });
 
 const { t } = useI18n();
 
-
-// 2. Perbaiki properti di sini dari 'number' menjadi 'phone'
 const formData = ref({
   name: '',
   email: '',
@@ -127,7 +125,7 @@ const handleSubmit = async () => {
   }
 };
 
-// 3. Sederhanakan fungsi-fungsi ini
+
 const handleMouseMove = (event) => {
   const target = event.currentTarget;
   const rect = target.getBoundingClientRect();
@@ -145,7 +143,7 @@ const handleMouseLeave = (event) => {
 
 <style scoped>
 input, textarea {
-  background-color: transparent; /* Pastikan background transparan */
+  background-color: transparent;
 }
 input:focus, textarea:focus {
   outline: none;
@@ -153,21 +151,20 @@ input:focus, textarea:focus {
 }
 .nav-item-fill-text {
     position: relative;
-    color: transparent; /* Awalnya teksnya transparan */
-    background: linear-gradient(to top, #a788f5 50%, white 50%); /* Gradient untuk mengisi dari bawah */
-    background-size: 100% 200%; /* Ukuran background agar gradient bisa bergerak */
-    background-position: 0 0; /* Posisi awal background (putih di atas, biru di bawah) */
+    color: transparent;
+    background: linear-gradient(to top, #a788f5 50%, white 50%); 
+    background-size: 100% 200%; 
+    background-position: 0 0;
 
-    /* Ini adalah properti kunci untuk mengisi teks */
-    -webkit-background-clip: text; /* Untuk kompatibilitas browser berbasis WebKit */
+    -webkit-background-clip: text; 
     background-clip: text;
 
-    transition: background-position 1s ease; /* Animasi perpindahan background */
-    text-decoration: none; /* Menghilangkan underline default */
-    font-weight: 500; /* Atau sesuai keinginan */
+    transition: background-position 1s ease; 
+    text-decoration: none; 
+    font-weight: 500; 
 }
 
 .nav-item-fill-text:hover {
-    background-position: 0 100%; /* Saat hover, background bergerak ke atas, mengisi teks dengan biru */
+    background-position: 0 100%; 
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- Tombol Menu -->
     <Transition name="slide-fade">
       <button
         v-if="showButton"
@@ -17,7 +16,6 @@
       </button>
     </Transition>
 
-    <!-- 1. Latar belakang (overlay) sekarang juga dibungkus dengan Transition untuk efek fade -->
     <Transition name="fade">
       <div 
         v-if="isMenuOpen" 
@@ -27,7 +25,6 @@
       ></div>
     </Transition>
 
-    <!-- 2. Panel menu sekarang dibungkus dengan Transition untuk efek slide -->
     <Transition name="menu-slide">
       <div v-if="isMenuOpen" class="fixed top-0 right-0 w-full sm:w-2/3 md:w-1/2 lg:w-1/4 h-screen bg-[#303030] z-[999] flex flex-col box-border rounded-l-xl">
         <div class="flex flex-col justify-between h-full text-white">
@@ -91,7 +88,6 @@ const showButton = ref(false);
 const toggleLanguage = () => {
   const newLocale = locale.value === 'en' ? 'id' : 'en';
   locale.value = newLocale;
-  // Simpan pilihan bahasa ke localStorage agar tetap tersimpan
   localStorage.setItem('language', newLocale);
 };
 
@@ -177,7 +173,7 @@ const handleMouseLeave = (event) => {
   transform: translateY(-50%) scale(1);
 }
 
-/* CSS untuk animasi tombol masuk */
+
 .slide-fade-enter-from,
 .slide-fade-leave-to {
   transform: translateX(100px);
@@ -192,10 +188,9 @@ const handleMouseLeave = (event) => {
   transition: all 0.3s ease-in;
 }
 
-/* 3. Tambahkan CSS untuk animasi panel menu */
 .menu-slide-enter-from,
 .menu-slide-leave-to {
-  transform: translateX(100%); /* Mulai dari luar layar sebelah kanan */
+  transform: translateX(100%);
 }
 
 .menu-slide-enter-active {
@@ -206,7 +201,6 @@ const handleMouseLeave = (event) => {
   transition: transform 0.3s ease-in;
 }
 
-/* 4. Tambahkan CSS untuk animasi fade overlay */
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;

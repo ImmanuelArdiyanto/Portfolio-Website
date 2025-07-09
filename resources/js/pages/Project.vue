@@ -71,8 +71,7 @@ defineOptions({ layout: AppLayout });
 
 const { t } = useI18n();
 
-// Data untuk proyek Anda.
-// Anda bisa dengan mudah menambah, mengubah, atau menghapus proyek di sini.
+
 const projects = ref([
   {
     id: 1,

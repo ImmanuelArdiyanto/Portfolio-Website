@@ -128,7 +128,6 @@ const handleMouseLeave = (event) => {
   target.style.transform = 'translate(0,0)';
 };
 
-// Ambil 3 proyek pertama untuk ditampilkan di halaman utama
 const featuredProjects = computed(() => allProjects.value.slice(0, 3));
 </script>
 
