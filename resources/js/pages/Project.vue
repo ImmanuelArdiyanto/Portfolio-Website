@@ -75,36 +75,43 @@ const { t } = useI18n();
 const projects = ref([
   {
     id: 1,
-    title: 'Portfolio Website',
+    title: 'NFT Based Ticketing System',
     subtitle: 'project.project1',
+    githubUrl: 'https://github.com/ImmanuelArdiyanto/NFT-Based-Ticketing-System',
+    skills: ['Solidity, JavaScript'] 
+  },
+  {
+    id: 2,
+    title: 'Portfolio Website',
+    subtitle: 'project.project2',
     githubUrl: 'https://github.com/ImmanuelArdiyanto/Portfolio-Website',
     skills: ['Vuejs', 'PHP', 'Laravel', 'TypeScript', 'JavaScript','Tailwind']
   },
   {
-    id: 2,
+    id: 3,
     title: 'Attendance Management System',
-    subtitle:  'project.project2',
+    subtitle:  'project.project3',
     githubUrl: 'https://huggingface.co/spaces/Immanuel-1/Attendance-Management-System',
     skills: ['Python', 'TensorFlow', 'Keras']
   },
   {
-    id: 3,
+    id: 4,
     title: 'Android Image Processing',
-    subtitle:  'project.project3',
+    subtitle:  'project.project4',
     githubUrl: 'https://github.com/ImmanuelArdiyanto/Image-AI',
     skills: ['Java', 'Python']
   },
   {
-    id: 4,
+    id: 5,
     title: 'Book Rent System',
-    subtitle:  'project.project4',
+    subtitle:  'project.project5',
     githubUrl: 'https://github.com/ImmanuelArdiyanto/Book-Rent-System',
     skills: ['PHP', 'Laravel','MySQL']
   },
   {
-    id: 5,
+    id: 6,
     title: 'Android BMI Calculator',
-    subtitle: 'project.project5',
+    subtitle: 'project.project6',
     githubUrl: 'https://github.com/ImmanuelArdiyanto/Android-BMI-Calculator',
     skills: ['Java']
   }

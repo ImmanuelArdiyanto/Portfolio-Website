@@ -15,11 +15,12 @@
   },
   "project": {
     "title": "All Works",
-    "project1": "My first website portfolio created with interactive design.",
-    "project2": "Creating Attendance Absence System by scanning the user's face using camera.",
-    "project3": "An Image Processing Application created to apply enhancement, filtering, etc on an image.",
-    "project4": "A Renting Book System created to manage data and managing the renting time limit.",
-    "project5": "A BMI Calculator Application created to calculate user's BMI along with log in system "
+    "project1": "Ticket purchasing system uses the NFT based.",
+    "project2": "My first website portfolio created with interactive design.",
+    "project3": "Creating Attendance Absence System by scanning the user's face using camera.",
+    "project4": "An Image Processing Application created to apply enhancement, filtering, etc on an image.",
+    "project5": "A Renting Book System created to manage data and managing the renting time limit.",
+    "project6": "A BMI Calculator Application created to calculate user's BMI along with log in system "
   },
   "contact": {
     "name": "What is Your name",

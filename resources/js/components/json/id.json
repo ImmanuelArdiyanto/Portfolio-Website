@@ -15,11 +15,12 @@
   },
   "project": {
     "title": "Seluruh Proyek",
-    "project1": "Portofolio website pertama saya yang dibuat dengan desain interaktif.",
-    "project2": "Membuat Sistem Absensi Kehadiran dengan memindai wajah pengguna menggunakan kamera.",
-    "project3": "Aplikasi Pemrosesan Gambar yang dibuat untuk menerapkan enhancement, filtering, dan lain-lain pada sebuah gambar.",
-    "project4": "Sistem Penyewaan Buku yang dibuat untuk mengelola data dan batas waktu penyewaan.",
-    "project5": "Aplikasi Kalkulator BMI yang dibuat untuk menghitung BMI pengguna beserta sistem login. "
+    "project1": "Sistem pembelian ticket dengan menggunakan metode NFT.",
+    "project2": "Portofolio website pertama saya yang dibuat dengan desain interaktif.",
+    "project3": "Membuat Sistem Absensi Kehadiran dengan memindai wajah pengguna menggunakan kamera.",
+    "project4": "Aplikasi Pemrosesan Gambar yang dibuat untuk menerapkan enhancement, filtering, dan lain-lain pada sebuah gambar.",
+    "project5": "Sistem Penyewaan Buku yang dibuat untuk mengelola data dan batas waktu penyewaan.",
+    "project6": "Aplikasi Kalkulator BMI yang dibuat untuk menghitung BMI pengguna beserta sistem login. "
   },
   "contact": {
     "name": "Siapa Nama Anda",

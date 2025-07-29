@@ -94,24 +94,24 @@ const handleNavigation = () => {
 const allProjects = ref([
   {
     id: 1,
+    title: 'NFT Based Ticketing System',
+    subtitle:  'project.project1',
+    githubUrl: 'https://github.com/ImmanuelArdiyanto/NFT-Based-Ticketing-System',
+    skills: ['Solidity, JavaScript']
+  },
+  {
+    id: 2,
     title: 'Portfolio Website',
     subtitle: 'project.project1',
     githubUrl: 'https://github.com/ImmanuelArdiyanto/Portfolio-Website',
     skills: ['Vuejs', 'PHP', 'Laravel','TypeScript', 'JavaScript','Tailwind']
   },
   {
-    id: 2,
+    id: 3,
     title: 'Attendance Management System',
     subtitle:  'project.project2',
     githubUrl: 'https://huggingface.co/spaces/Immanuel-1/Attendance-Management-System',
     skills: ['Python', 'TensorFlow', 'Keras']
-  },
-  {
-    id: 3,
-    title: 'Android Image Processing',
-    subtitle:  'project.project3',
-    githubUrl: 'https://github.com/ImmanuelArdiyanto/Image-AI',
-    skills: ['Java', 'Python']
   }
 ]);
 const handleMouseMove = (event) => {

@@ -89,8 +89,8 @@ const skillCategories = ref([
     skills: ['Android Studio']
   },
   {
-    name: 'Web 3',
-    skills: ['Solidity']
+    name: 'Blockchain',
+    skills: ['Solidity, Foundry']
   }
 ]);
 </script>
