@@ -78,7 +78,7 @@ const projects = ref([
     title: 'NFT Based Ticketing System',
     subtitle: 'project.project1',
     githubUrl: 'https://github.com/ImmanuelArdiyanto/NFT-Based-Ticketing-System',
-    skills: ['Solidity, JavaScript'] 
+    skills: ['Solidity', 'JavaScript', 'Reactjs'] 
   },
   {
     id: 2,

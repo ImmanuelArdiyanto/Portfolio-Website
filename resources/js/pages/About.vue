@@ -90,7 +90,7 @@ const skillCategories = ref([
   },
   {
     name: 'Blockchain',
-    skills: ['Solidity, Foundry']
+    skills: ['Solidity', 'Foundry']
   }
 ]);
 </script>
